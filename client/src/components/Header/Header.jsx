@@ -21,7 +21,7 @@ export function Header() {
                 <span className="nav-brand-link">
                     <span>
                         <img className="nav-brand-logo" src={logo} alt="" />
-                        <span className="nav-brand-name">Bookscape</span>
+                        <span className="nav-brand-name">ScrapZen</span>
                     </span>
                 </span>
             </Link>
