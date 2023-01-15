@@ -1,0 +1,135 @@
+.nav {
+    padding-bottom: 0.3em;
+    grid-area: header;
+    padding-left: 0;
+    padding-right: 0;
+    border: 1px solid #e2dede;
+    z-index: var(--index-highest);
+}
+
+.nav-brand-link {
+    margin-top: 0.1em;
+}
+
+.nav-brand-link > span {
+    padding: 0;
+    padding-top: 0.3em;
+}
+
+.nav-brand-logo {
+    width: 2em;
+}
+
+.nav-brand-name {
+    display: none;
+}
+
+.nav-link-section {
+    margin-right: 0.5em;
+}
+
+.nav-btns {
+    font-size: 1rem;
+    border-radius: 25%;
+    border: 1px solid #c9c5c5;
+    padding: 0.8em;
+    padding-bottom: 0.5em;
+    margin: 0.2em;
+    color: #000;
+    background-color: transparent;
+}
+
+.session-btn {
+    border-radius: 0.8em;
+    border: 1px solid #c9c5c5;
+    padding: 0.7em;
+    margin: 0.2em;
+    text-decoration: none;
+    color: #000;
+    background-color: transparent;
+}
+
+.logout-btn {
+    color: rgb(189, 48, 48);
+}
+
+.cart-svg,
+.heart-svg,
+.logout-svg {
+    transform: scale(1.5);
+}
+
+.avatar > img {
+    margin-top: 0.1em;
+}
+
+.cart-logo-container {
+    position: relative;
+}
+
+.cart-quantity {
+    position: absolute;
+    top: -0.3em;
+    right: 0;
+    background-color: rgb(221, 19, 19);
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 0.8rem;
+    color: #fff;
+}
+
+@media (min-width: 400px) {
+    .nav-brand-name {
+        display: block;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 768px) {
+    .nav-brand-link > span {
+        padding-top: 0;
+    }
+
+    .nav-brand-link {
+        margin-top: 0;
+        margin-left: 0.8em;
+    }
+
+    .nav-link-section {
+        margin-top: 0.3em;
+        margin-right: 1em;
+    }
+}
+
+@media (min-width: 768px) {
+    .nav {
+        padding: 0 0.2em;
+        padding-top: 0.3em;
+        padding-bottom: 0.6em;
+        border: none;
+        box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.05);
+    }
+
+    .nav-brand-link {
+        margin-top: 0;
+        margin-left: 0.8em;
+    }
+
+    .nav-link-section {
+        margin-top: 0.3em;
+        margin-right: 1em;
+    }
+
+    .profile-button {
+        display: block;
+    }
+}
+
+@media (min-width: 874px) {
+    .nav-brand-link {
+        margin-left: 2.5em;
+    }
+
+    .nav-link-section {
+        margin-right: 4.5em;
+    }
+}
