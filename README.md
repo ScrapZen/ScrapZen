@@ -1,4 +1,4 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/8f446351-b05e-441b-823a-856fab6753a0/deploy-status)](https://app.netlify.com/sites/store-bookscape/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/1f0dcaf3-fb76-4dd0-94aa-31ca7805da45/deploy-status)](https://app.netlify.com/sites/scrapzen/deploys)
 <img src="./src/assets/logo.png" height="250px" align="right"/>
 
 <h1 align="center">BOOK AND SCRAP STORE  </h1>
@@ -9,7 +9,7 @@
     Through this book store the users can search for a book by its title and
     later can add to the shopping cart and finally purchase using credit card transaction.
     
-##   [Live App Demo](https://ScrapZens.netlify.app/)
+##   [Live App Demo](https://scrapzen.netlify.app/)
 
 ### Tech Stack
 React, Node, Express, MongoDB, mongoose, jsonwebtoken & bcrypt
